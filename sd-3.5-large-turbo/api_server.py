@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import torch
 from diffusers import StableDiffusionPipeline
-from PIL import Image
 import io
 import base64
 
